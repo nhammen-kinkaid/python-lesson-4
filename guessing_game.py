@@ -2,6 +2,7 @@ import random
 
 play_again = True
 
+
 while play_again:
     secret_number = random.randrange(1,3)
     player_guess = 0
