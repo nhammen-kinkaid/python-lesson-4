@@ -1,4 +1,5 @@
 import turtle
+import random
 
 # Set up the screen window
 window = turtle.Screen()
