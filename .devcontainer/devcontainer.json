@@ -15,7 +15,7 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers-contrib/features/desktop-lite:1": {}
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
   "forwardPorts": [6080],
   "postCreateCommand": "pip install --upgrade pip"
