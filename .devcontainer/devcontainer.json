@@ -18,5 +18,5 @@
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
   "forwardPorts": [5901, 6080],
-  "postCreateCommand": "pip install --upgrade pip && chmod +x start-gui.sh"
+  "postCreateCommand": "pip install --upgrade pip && sudo apt-get update && sudo apt-get install -y python3-tk"
 }
