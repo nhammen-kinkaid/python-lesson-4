@@ -15,5 +15,5 @@
     }
   },
   "forwardPorts": [6080],
-  "postCreateCommand": "pip install --upgrade pip"
+  "postCreateCommand": "pip install --upgrade pip && chmod +x start-gui.sh"
 }
